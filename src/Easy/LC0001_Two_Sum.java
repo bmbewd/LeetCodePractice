@@ -1,7 +1,7 @@
 package Easy;
 import java.util.HashMap;
 
-public class LC0001 {
+public class LC0001_Two_Sum {
     
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
