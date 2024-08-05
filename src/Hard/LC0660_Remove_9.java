@@ -25,6 +25,7 @@ package Hard;
 public class LC0660_Remove_9 {
     class Solution {
         public int newInteger(int n) {
+            // 將n轉換成9進制
             return Integer.parseInt(Integer.toString(n,9));
         }
     }
