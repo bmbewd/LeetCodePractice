@@ -25,8 +25,16 @@ package Hard;
 public class LC0660_Remove_9 {
     class Solution {
         public int newInteger(int n) {
+            String str = "";
+            while (n > 0){
+                int r;
+                r = n % 9;
+                str = String.valueOf(r) + str;
+                n = n / 9;
+            }            
+            return Integer.parseInt(str);
             // 將n轉換成9進制
-            return Integer.parseInt(Integer.toString(n,9));
+            //return Integer.parseInt(Integer.toString(n,9));
         }
     }
 }
